@@ -1,5 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+main {
+  margin-top: 250px;
+  margin-left: 375px;
+  margin-right: 375px;
+  margin-bottom: 600px;
+}
+
 .first-picture {
-  width: 350px;
+  width: 450px;
   border-radius: 25px;
-  height: 400px;
+  height: 500px;
+  float: left;
+}
+
+.myself {
+  padding-left: 650px;
+  text-align: justify;
+}
+
+.second-picture {
+  position: relative;
+  top: 350px;
+  width: 450px;
+  border-radius: 25px;
+  height: 500px;
+  float: right;
+}
+
+.goals {
+  position: relative;
+  top: 290px;
+  padding-right: 650px;
+  text-align: justify;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(56, 29, 29);
+  overflow: hidden;
+}
+
+footer ul {
+  display: block;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-content {
+  float: left;
+}
+
+.footer-socials {
+  width: 50px;
+  float: right;
+}
+
+.footer-socials img {
+  width: 100%;
+  margin-bottom: 10px;
 }
